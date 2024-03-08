@@ -6,7 +6,7 @@
     color: white;
 }
 
-.main {
+.main{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 100%), url('/assets/main-image.jpg');
@@ -22,9 +22,10 @@
 }
 
 .header{
-    margin-left: 120px;
-    margin-right: 120px;
-    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    width: 80vw;
     height: 90px;
 }
 
@@ -37,6 +38,7 @@
 
 .hero-content{
     width: 80vw;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,25 +49,31 @@
 
 .hero-h2{
     font-weight: 900;
+    text-align: center;
 }
 
 .hero-p-1{
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .hero-p-2{
     font-size: 1.25rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .english-button{
     width: 130px;
     height: 32px;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.1rem;
     padding: 6px 36px;
     border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     background-color: #000000;
 }
 
@@ -81,11 +89,12 @@
     border-radius: 4px;
 }
 
-/* .get-started{
+.get-started{
     justify-content: center;
-    width: 900px;
-    height: 56px;
-} */
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
 
 #email-input{
     width: 336px;
