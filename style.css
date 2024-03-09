@@ -5,6 +5,7 @@
     box-sizing: border-box;
     color: white;
 }
+  
 
 .main{
     width: 100vw;
@@ -24,8 +25,8 @@
 .header{
     justify-content: space-between;
     align-items: center;
+    flex: 1;
     padding: 1.5rem;
-    width: 80vw;
     height: 90px;
 }
 
@@ -38,7 +39,7 @@
 
 .hero-content{
     width: 80vw;
-    height: 300px;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +66,7 @@
 }
 
 .english-button{
-    width: 130px;
+    width: 8.5rem;
     height: 32px;
     font-size: 1rem;
     line-height: 1.1rem;
@@ -81,7 +82,7 @@
     background-color: #e50914;
     color: white;
     border: none;
-    width: 80px;
+    width: 5rem;
     height: 32px;
     padding: 4px 16px;
     font-size: 14px;
@@ -97,7 +98,7 @@
 }
 
 #email-input{
-    width: 336px;
+    max-width: 336px;
     height: 56px;
     border: 1px solid white;
     padding: 1.5rem 1rem 0.5rem 1rem;
@@ -121,6 +122,32 @@
     border: none;
 }
 
+
+
+
+@media only screen and (max-width: 470px) {
+    .logo {
+      width: 100px;
+      height: auto; 
+    }
+  
+    .english-button {
+      width: 44px; 
+      height: 32px;
+      padding: 6px; 
+      font-size: 0;
+      overflow: hidden; 
+    }
+  
+   
+  
+    .sign-in-button {
+      width: 4rem; 
+      padding: 4px 8px; 
+      font-size: 0.875rem; 
+    }
+  }
+  
 
 
 
